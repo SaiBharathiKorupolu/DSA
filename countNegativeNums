@@ -1,0 +1,13 @@
+function countNegativeNums(arr){
+    let count = 0;
+    for(let i=0; i<arr.length; i++){
+        if(arr[i] < 0){
+            count ++
+        }
+    }
+    return count
+}
+
+let arr = [3,4, -8, 10, 12, -2,-26,-8]
+const result = countNegativeNums(arr)
+console.log(result);
